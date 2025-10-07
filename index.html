@@ -42,27 +42,25 @@
 <body>
 
     <header class="p-4 bg-gray-900 shadow-2xl sticky top-0 z-20 backdrop-blur-sm bg-opacity-90 transition duration-500">
-        <div class="max-w-7xl mx-auto flex justify-between items-center">
-            <h1 class="text-2xl font-extrabold text-indigo-400 tracking-wider">LAKBAY BAG</h1>
-            <nav class="hidden md:flex space-x-8">
-                <a href="#features" class="text-gray-300 hover:text-indigo-400 transition duration-300 relative group">
-                    Features
-                    <span class="absolute left-0 bottom-0 w-full h-0.5 bg-indigo-400 scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
-                </a>
-                <a href="#product-view" class="text-gray-300 hover:text-indigo-400 transition duration-300 relative group">
-                    Product View
-                    <span class="absolute left-0 bottom-0 w-full h-0.5 bg-indigo-400 scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
-                </a>
-                <a href="#contact" class="text-gray-300 hover:text-indigo-400 transition duration-300 relative group">
-                    Get Yours
-                    <span class="absolute left-0 bottom-0 w-full h-0.5 bg-indigo-400 scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
-                </a>
-            </nav>
-            <button class="md:hidden text-gray-300 focus:outline-none p-2 rounded-md hover:bg-gray-700 transition duration-300">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
-            </button>
-        </div>
-    </header>
+  <div class="max-w-7xl mx-auto flex justify-between items-center">
+    
+    <!-- Logo (circular image) -->
+    <div class="flex items-center space-x-4">
+      <img src="logo.jpeg" alt="Lakbay Bag Logo" class="w-14 h-14 rounded-full object-cover">
+      <h1 class="text-2xl font-extrabold text-indigo-400 tracking-wider">LAKBAY BAG</h1>
+    </div>
+    
+    <!-- Navigation -->
+    <nav class="hidden md:flex space-x-8">
+      <a href="#features" class="text-gray-300 hover:text-indigo-400 transition duration-300 relative group">
+        Features
+      </a>
+      <!-- Add more nav links here if needed -->
+    </nav>
+    
+  </div>
+</header>
+
 
     <main class="text-center">
         <div class="max-w-7xl mx-auto px-4 py-16 md:py-24 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -73,7 +71,7 @@
                         Lakbay Bag
                     </span>
                     <br>
-                    <span class="text-gray-200">Travel Smarter.</span>
+                    <span class="text-gray-200">Travel Smarter</span>
                 </h2>
                 <p class="text-xl text-gray-400 mb-10 max-w-lg">
                     The ultimate multipurpose solar commuter bag. Power your devices and relax anywhere with the concealed, deployable folding chair.
@@ -82,11 +80,15 @@
         
             </div>
 
-            <div id="product-view" class="flex justify-center md:justify-end">
-                <div class="w-full max-w-md p-6 bg-gray-900 rounded-2xl product-visual transition duration-500 transform hover:rotate-1 shadow-2xl">
-                    <div class="w-full h-96 bg-gray-800 rounded-2xl flex items-center justify-center text-gray-500 text-sm italic border border-dashed border-gray-700">
-                         <img src="bag.jpeg" alt="dora">
-                    </div>
+         <div id="product-view" class="flex justify-center md:justify-end">
+  <div class="w-full max-w-md p-6 bg-gray-900 rounded-2xl product-visual transition duration-500 transform hover:rotate-1 shadow-2xl">
+    
+    
+    <div class="w-full h-96 bg-gray-800 rounded-2xl flex items-center justify-center border border-dashed border-gray-700 overflow-hidden">
+      <img src="no.png" alt="dora" class="w-full h-full object-cover">
+    </div>
+
+        </div>
                 </div>
             </div>
         </div>
